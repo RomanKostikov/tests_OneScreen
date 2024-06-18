@@ -1,0 +1,307 @@
+[
+    {
+        "operation_id": 17302536474,
+        "operation_type": "OperationAgentDeliveredToCustomer",
+        "operation_date": "2023-11-26 00:00:00",
+        "operation_type_name": "Доставка покупателю",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 2952,
+        "sale_commission": -590.4,
+        "amount": 1963.07,
+        "type": "orders",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [
+            {
+                "name": "Товар А",
+                "sku": 1
+            },
+            {
+                "name": "Товар Б",
+                "sku": 2
+            },
+            {
+                "name": "Товар Б",
+                "sku": 2
+            }
+        ],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemDelivToCustomer",
+                "price": -158.53
+            },
+            {
+                "name": "MarketplaceServiceItemDirectFlowTrans",
+                "price": 0
+            },
+            {
+                "name": "MarketplaceServiceItemDirectFlowLogistic",
+                "price": -210
+            },
+            {
+                "name": "MarketplaceServiceItemDropoffPVZ",
+                "price": -30
+            }
+        ]
+    },
+    {
+        "operation_id": 17326739690,
+        "operation_type": "OperationAgentStornoDeliveredToCustomer",
+        "operation_date": "2023-11-27 00:00:00",
+        "operation_type_name": "Доставка покупателю — отмена начисления",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 0,
+        "sale_commission": 0,
+        "amount": 50,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemDelivToCustomer",
+                "price": 50
+            }
+        ]
+    },
+    {
+        "operation_id": 17326535237,
+        "operation_type": "ClientReturnAgentOperation",
+        "operation_date": "2023-11-27 00:00:00",
+        "operation_type_name": "Получение возврата, отмены, невыкупа от покупателя",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": -1920,
+        "sale_commission": 384,
+        "amount": -1536,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [
+            {
+                "name": "Товар Б",
+                "sku": 2
+            },
+            {
+                "name": "Товар Б",
+                "sku": 2
+            }
+        ],
+        "services": []
+    },
+    {
+        "operation_id": 17327216263,
+        "operation_type": "OperationAgentStornoDeliveredToCustomer",
+        "operation_date": "2023-11-27 00:00:00",
+        "operation_type_name": "Доставка покупателю — отмена начисления",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 0,
+        "sale_commission": 0,
+        "amount": 50,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemDelivToCustomer",
+                "price": 50
+            }
+        ]
+    },
+    {
+        "operation_id": 17344119055,
+        "operation_type": "ClientReturnAgentOperation",
+        "operation_date": "2023-11-28 00:00:00",
+        "operation_type_name": "Получение возврата, отмены, невыкупа от покупателя",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": -1032,
+        "sale_commission": 206.4,
+        "amount": -825.6,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [
+            {
+                "name": "Товар А",
+                "sku": 1
+            }
+        ],
+        "services": []
+    },
+    {
+        "operation_id": 17344212215,
+        "operation_type": "OperationAgentStornoDeliveredToCustomer",
+        "operation_date": "2023-11-28 00:00:00",
+        "operation_type_name": "Доставка покупателю — отмена начисления",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 0,
+        "sale_commission": 0,
+        "amount": 53.45,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemDelivToCustomer",
+                "price": 53.45
+            }
+        ]
+    },
+    {
+        "operation_id": 17491793260,
+        "operation_type": "OperationReturnGoodsFBSofRMS",
+        "operation_date": "2023-12-03 00:00:00",
+        "operation_type_name": "Доставка и обработка возврата, отмены, невыкупа",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 0,
+        "sale_commission": 0,
+        "amount": -135,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [
+            {
+                "name": "Товар Б",
+                "sku": 2
+            }
+        ],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemReturnAfterDelivToCustomer",
+                "price": -50
+            },
+            {
+                "name": "MarketplaceServiceItemRedistributionReturnsPVZ",
+                "price": -15
+            },
+            {
+                "name": "MarketplaceServiceItemReturnFlowTrans",
+                "price": 0
+            },
+            {
+                "name": "MarketplaceServiceItemReturnFlowLogistic",
+                "price": -70
+            }
+        ]
+    },
+    {
+        "operation_id": 17491793892,
+        "operation_type": "OperationReturnGoodsFBSofRMS",
+        "operation_date": "2023-12-03 00:00:00",
+        "operation_type_name": "Доставка и обработка возврата, отмены, невыкупа",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 0,
+        "sale_commission": 0,
+        "amount": -135,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [
+            {
+                "name": "Товар Б",
+                "sku": 2
+            }
+        ],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemReturnAfterDelivToCustomer",
+                "price": -50
+            },
+            {
+                "name": "MarketplaceServiceItemRedistributionReturnsPVZ",
+                "price": -15
+            },
+            {
+                "name": "MarketplaceServiceItemReturnFlowTrans",
+                "price": 0
+            },
+            {
+                "name": "MarketplaceServiceItemReturnFlowLogistic",
+                "price": -70
+            }
+        ]
+    },
+    {
+        "operation_id": 17556653792,
+        "operation_type": "OperationReturnGoodsFBSofRMS",
+        "operation_date": "2023-12-05 00:00:00",
+        "operation_type_name": "Доставка и обработка возврата, отмены, невыкупа",
+        "delivery_charge": 0,
+        "return_delivery_charge": 0,
+        "accruals_for_sale": 0,
+        "sale_commission": 0,
+        "amount": -135,
+        "type": "returns",
+        "posting": {
+            "delivery_schema": "FBS",
+            "order_date": "2023-11-18 13:41:45",
+            "posting_number": "0001",
+            "warehouse_id": 10
+        },
+        "items": [
+            {
+                "name": "Товар А",
+                "sku": 1
+            }
+        ],
+        "services": [
+            {
+                "name": "MarketplaceServiceItemReturnAfterDelivToCustomer",
+                "price": -50
+            },
+            {
+                "name": "MarketplaceServiceItemRedistributionReturnsPVZ",
+                "price": -15
+            },
+            {
+                "name": "MarketplaceServiceItemReturnFlowTrans",
+                "price": 0
+            },
+            {
+                "name": "MarketplaceServiceItemReturnFlowLogistic",
+                "price": -70
+            }
+        ]
+    }
+]
